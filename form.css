@@ -23,12 +23,12 @@
    }
 
    .txt{
-    padding: 15px;
+    padding: 18px;
      margin: 20px 0px 10px 40px  ; 
     height: auto;
     background-color: #c9c6c6;
     border: solid 1px rgb(205, 205, 205);
-    width: 60%;
+    width: 65%;
    }
    .save{
     background-color: rgb(6, 2, 255);
@@ -36,9 +36,8 @@
     padding: 16px;
    
     border-radius: 2px;
-    border: none;
-    font-size: 12px;
-    
+    border: 1px solid rgb(151, 151, 151);
+    font-size: 18px;
     width: 20%;
    }
    .save:hover{
@@ -49,60 +48,43 @@
     max-width: 900px;
     border: 10px solid rgb(119, 118, 115);
     padding: 2rem 1rem;
-    margin: 0 auto;
+    margin: 25px;
     background-color: #b2b0b0;
     }  
     ul{
       
-    
-        /*display: inline-block;
-        /* flex-direction:column ; */
-        /* padding: 6rem 0; */
         margin-left: .5rem;
         width: 80%;
         margin-bottom: 1rem;
         background-color: #e3dfdf;
       }
       li {
-        /* position: relative;
-        display: block; */
+
         padding: 15px 20px;
-           margin-bottom: 5px;
-           background-color: #b7b5b5;
-          
-          cursor: pointer;
-          }
+        margin-bottom: 5px;
+        background-color: #b7b5b5; 
+        cursor: pointer;
 
-          .save-link{
-            background-color: #c9c9c9;
-            max-width: 750px;
-            /* height: 300px; */
-            padding: 10px;
-           margin: 10px;
+       }
+
+        .save-link{
+         background-color: #d8d7d7;
+         max-width: 750px;
+         padding: 10px;
+         margin: 10px;
       
-             }  
+         }  
              
-             h2{
-                text-align: center;
-                color: #2c2b2b;
-               }
+        h2{
+          text-align: center;
+          color: #393838;
+        }
 
-               li.backgrund{
-                background-color: #5c5b5b;
-                color: white;
-                cursor: pointer;
-              }
-              .hidden{display: none;}
+         li.backgrund{
+            background-color: #5c5b5b;
+            color: white;
+            cursor: pointer;
+             }
+         .hidden{display: none;}
           
-              .btn-remove{
-              background-color: red;
-               width: 16%;
-               height: 42px;
-               color: white;
-               font-size: 10px;
-               border: none;
-              }
-              .btn-remove:hover{
-                background-color: rgb(186, 2, 2);
-              }
-       
+        
