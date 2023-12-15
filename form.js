@@ -15,11 +15,34 @@ form.addEventListener("submit", function(event){
     ul.appendChild(li);
 //    ul.insertBefore(li, ul.firstElementChild);
 
-   inputText.value = "";
+  inputText.value = "";
+
+
+
+const radios = document.querySelectorAll("input[type=radio]");
+
+let place;
+
+radios.forEach (radio  => {
+
+  if (radio.checked){
+
+    place = radio.value;
+  }
+
+
+  if(place === "first"){
+
+    ul.insertBefore(li, ul.firstElementChild);
+   }
+   else{
+    ul.appendChild(li);
+   }
+  
 
 });
-
-
+ 
+});
 
 ul.addEventListener("click",(event)=> {
   
@@ -37,3 +60,4 @@ ul.addEventListener("click",(event)=> {
   
    });
   
+   

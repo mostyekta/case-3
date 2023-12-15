@@ -48,12 +48,12 @@
     max-width: 900px;
     border: 10px solid rgb(119, 118, 115);
     padding: 2rem 1rem;
-    margin: 25px;
+    margin: 45px;
     background-color: #b2b0b0;
     }  
     ul{
       
-        margin-left: .5rem;
+        margin-left: 2.5rem;
         width: 80%;
         margin-bottom: 1rem;
         background-color: #e3dfdf;
@@ -61,12 +61,18 @@
       li {
 
         padding: 15px 20px;
-        margin-bottom: 5px;
+        margin: 15px;
         background-color: #b7b5b5; 
         cursor: pointer;
+        max-width: 350px;
+        font-size: 20px;
 
        }
-
+      hr{
+         /* max-width: 100px; */
+         border: 1px solid rgba(5, 5, 103, 0.173);
+         align-items: center;
+      }
         .save-link{
          background-color: #d8d7d7;
          max-width: 750px;
@@ -87,4 +93,18 @@
              }
          .hidden{display: none;}
           
-        
+         fieldset{
+          background-color: rgb(175, 177, 179);
+          margin: 10px 35px;
+          height: 80px;
+          max-width: 300px;
+        }
+        legend{
+          margin: 12px;
+        }
+    
+        .check{
+          margin-left: 15px;  
+         
+        }
+          
