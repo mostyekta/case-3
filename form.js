@@ -23,11 +23,11 @@ const btnRemove = document.createElement("button");
 li.appendChild(btnRemove);
 
 
- btnRemove.style.background="#bb1111";
+  btnRemove.style.background="#bb1111";
   btnRemove.style.width="80px";
   btnRemove.style.height="40px";
   btnRemove.style.color="white";
- btnRemove.style.marginLeft="200px";
+  btnRemove.style.marginLeft="100px";
 
 
  ul.addEventListener("click",(event) => {
