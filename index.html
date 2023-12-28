@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Länk-form</title>
-    <link rel="stylesheet" href= "form.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Länk-form</title>
+  <link rel="stylesheet" href="form.css">
 </head>
+
 <body>
-    <h1>Länk-form</h1>
+  <h1>Länk-form</h1>
 
-    <form action="" method="post">
+  <form action="" method="post">
 
-        <p>
-          <input class="txt" type="text" name="text" id="text" placeholder="Skriv länken....." required> <input type="submit" value="Save" class="save"> 
-          
-      
-        </p>
+    <p>
+      <input class="txt" type="text" name="text" id="text" placeholder="Skriv text....." required>
+      <input id="link" placeholder="www.exemple.se" class="länk" required>
+      <input type="submit" value="Save" class="save">
 
-        <fieldset>
-          <legend> Var ska länk placeras</legend>
-  
-          <input class="check" type="radio" name="place" id="" value="first"> Placera länk först <br>
-          <input class="check" type="radio" name="place" id="" value="last" checked> Placera länk sist
-  
-      </fieldset>
-  
-      
-          <div class="container">
-            <div class="save-link">
-              <p >
-               <h2>sparade länkar</h2>
-               <hr>
-              </p>
-            
-              <ul class="background"> </ul>
-             
-          
-         </div>
-        </div>
-          </form>
-      
-      
-          <script src="form.js"></script>
+    </p>
+
+    <fieldset>
+
+      <legend> Var ska länk placeras</legend>
+
+      <input class="check" type="radio" name="place" id="" value="first"> Placera länk först <br>
+      <input class="check" type="radio" name="place" id="" value="last" checked> Placera länk sist
+
+    </fieldset>
+
+  </form>
+
+
+
+  <div class="container">
+    <div class="save-link">
+      <p>
+      <h2>sparade länkar</h2>
+      <hr>
+      </p>
+
+      <ul class="background"> </ul>
+
+    </div>
+  </div>
+
+
+
+  <script src="form.js"></script>
 
 </body>
+
 </html>
